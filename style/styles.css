@@ -57,7 +57,6 @@ background-color: #FFF8F3;}
 .about{
 border-radius: 10px;
 padding: 130px 150px;text-align: center;
-margin-top: 130px;
 background-color: #FFF8F3;
 }
 main{
@@ -65,3 +64,15 @@ main{
 margin: 0 auto;}
 .about-items{display: flex;
 justify-content: space-around;}
+.text-center{text-align: center;}
+.skills-container{
+  display: flex;
+  gap: 24px;
+
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px black;
+}
+main section{margin-top: 90px;
+margin-bottom: 80px;}

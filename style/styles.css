@@ -39,6 +39,7 @@ justify-content: space-between;
 margin: 0 35px 0 230px;}
 .banner-content{
   max-width: 580px;
+  height: 670px;
 }
 .header{background-image: url('../images/developer.png' ),url('../images/header_bg.png');
 background-repeat:no-repeat;
@@ -76,3 +77,20 @@ justify-content: space-around;}
 }
 main section{margin-top: 90px;
 margin-bottom: 80px;}
+.resume-container{display: flex;
+gap: 24px;}
+.footer{display:flex;
+padding: 130px 230px;
+gap: 100px;}
+.footer-colum{width:50%;}
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+.footer{background-color: #FFF8F3;}
